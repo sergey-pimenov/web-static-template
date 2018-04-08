@@ -1,7 +1,7 @@
 module.exports = {
   //*** I18n ***//
   localesDir : 'locales',
-  locales : ['en', 'de'],
+  locales : ['en'],
   defaultLang : 'en',
   delimeters: ['@{', '}'], // Compatible with Handlebars, Pug and Nunjucks
 
