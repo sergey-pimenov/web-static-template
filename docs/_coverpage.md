@@ -49,7 +49,7 @@
 
   <div class="links">
     <a class="getStarted" href="#/?id=main-features"> Get started </a>
-    <a class="github" href="#/?id=headline"> <img src="img/github.svg"> Github </a>
+    <a class="github" href="https://github.com/sergey-pimenov/web-static-template"> <img src="img/github.svg"> Github </a>
   </div>
 
 </section>
