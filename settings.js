@@ -20,7 +20,7 @@ module.exports = {
 
   //*** Image optimize ***//
   imagesOptimize : {
-    lossless : false, // Set "lossless : false" to lossy сonversion
+    lossless : true, // Set "lossless : false" to lossy сonversion
 
     jpg : {
       progressive : true,
