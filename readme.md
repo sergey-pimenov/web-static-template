@@ -35,35 +35,35 @@ Main features:
 
 ### Content:
 
-[Installation and run](http://google.com)
+[Installation and run](#installation)
 
-[Basic structure](http://google.com)
+[Basic structure](#basic-structure)
 
-[Step by step](http://google.com)
+[Step by step](#step-by-step)
 
-[Preprocessors](http://google.com)
+[Preprocessors](#preprocessors)
 
-[Templating](http://google.com)
+[Templating](#templating)
 
-[JavaScript](http://google.com)
+[JavaScript](#javascript)
 
-[TypeScript](http://google.com)
+[TypeScript](#typescript)
 
-[I18n](http://google.com)
+[I18n](#i18n-internationalization)
 
-[Work with images](http://google.com)
+[Work with images](#work-with-images)
 
-[Settings](http://google.com)
+[Settings](#settings)
 
-[Production build](http://google.com)
+[Production build](#production-build)
 
-[Components implementation](http://google.com)
+[Components implementation](#components-implementation)
 
 ---
 
 ### Installation
 
-* [Download](https://google.com) template
+* [Download](https://github.com/sergey-pimenov/web-static-template/archive/master.zip) template
 * In root of template run: *npm i*
 * Than run: *npm install gulp-cli -g*
 * Than run: *npm install gulp -D*
@@ -102,7 +102,7 @@ Get starting by creating example project:
 
 #### 1. Install project:
 
-* [Download](https://google.com) template
+* [Download](https://github.com/sergey-pimenov/web-static-template/archive/master.zip) template
 * In root of template run: *npm i*
 * Than run: *npm install gulp-cli -g*
 * Than run: *npm install gulp -D*
@@ -649,7 +649,7 @@ Template provide for you some basic setting in order to save you from unnecessar
 
 Here is a list of them:
 
-```json
+```javascript
 {
   //*** I18n ***//
   localesDir : 'locales',
