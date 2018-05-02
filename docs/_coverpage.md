@@ -113,7 +113,7 @@ section.cover .customCover {
 section.cover .mainTitle {
   width: calc(var(--basic-width) - var(--basic-indent));
   margin: 50px auto 0 auto;
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
   font-weight: bold;
 }
@@ -125,6 +125,7 @@ section.cover .mainTitle {
     margin-top: 30px;
     padding-right: 30px;
     position: relative;
+    font-size: 25px;
   }
 }
 
@@ -145,7 +146,8 @@ section.cover .mainTitle {
 
 .reasons {
   margin-top: 0 !important;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1.5;
   display: flex;
   flex-wrap: wrap;
 }
@@ -159,12 +161,11 @@ section.cover .mainTitle {
 .reasons .reason {
   max-width: 500px;
   margin: 15px;
-  padding: 20px 30px;
+  padding: 25px 35px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 
 @media all and (max-width: 1200px) {
@@ -225,8 +226,8 @@ section.cover .mainTitle {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 
 @media all and (max-width: 1200px) {
@@ -263,20 +264,42 @@ section.cover .mainTitle {
   }
 }
 
+@media all and (max-width: 360px) {
+  .links {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 .links a {
-  padding: 10px 25px;
-  background-color: rgba(255, 255, 255, 0.8);
+  padding: 13px 35px;
+  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   font-size: 16px;
+  font-weight: bold;
   transition: background-color 0.2s;
 }
 
+@media all and (max-width: 360px) {
+  .links a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .links a:hover {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .getStarted {
   margin-right: 30px;
+}
+
+@media all and (max-width: 360px) {
+  .getStarted {
+    margin: 0 0 15px 0;
+  }
 }
 
 .github {
