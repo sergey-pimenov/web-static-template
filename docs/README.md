@@ -13,7 +13,7 @@
 
 ### Installation
 
-* [Download](https://google.com) template
+* [Download](https://github.com/sergey-pimenov/web-static-template/archive/master.zip) template
 * In root of template run: *npm i*
 * Than run: *npm install gulp-cli -g*
 * Than run: *npm install gulp -D*
@@ -52,7 +52,7 @@ Get starting by creating example project:
 
 #### 1. Install project:
 
-* [Download](https://google.com) template
+* [Download](https://github.com/sergey-pimenov/web-static-template/archive/master.zip) template
 * In root of template run: *npm i*
 * Than run: *npm install gulp-cli -g*
 * Than run: *npm install gulp -D*
